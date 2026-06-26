@@ -1,0 +1,35 @@
+{
+  "_comment": "Copy this to config.json and edit. config.json is gitignored.",
+
+  "author": "Firstname Lastname",
+
+  "claude_projects_dir": "/Users/yourname/Claude/Projects",
+
+  "scan_dirs": [],
+
+  "git_roots": [],
+
+  "exclude_dirs": [],
+
+  "output_dir": "/Users/yourname/Documents/weekly-evidence",
+
+  "file_extensions": [
+    ".py", ".md", ".ts", ".tsx", ".js", ".jsx",
+    ".sql", ".yaml", ".yml", ".json", ".toml",
+    ".sh", ".bash", ".tf", ".go", ".rs", ".rb",
+    ".ipynb", ".txt"
+  ],
+
+  "ignore_patterns": [
+    ".git", "node_modules", "__pycache__", ".DS_Store",
+    ".venv", "venv", "dist", "build", ".next", ".cache",
+    "*.pyc", "*.pyo"
+  ],
+
+  "max_files_per_dir": 40,
+
+  "claude_enrich": false,
+  "claude_model": "claude-sonnet-4-6",
+  "claude_enrich_files": ["REPORT.md", "README.md", "executive_summary.md"],
+  "claude_api_key": null
+}
