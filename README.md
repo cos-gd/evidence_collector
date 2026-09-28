@@ -1,7 +1,7 @@
 # activity-collector
 
 Scans **Claude Projects**, git repos, and directories for a given time period
-and produces a structured Markdown evidence file for the weekly GD CTO PA digest.
+and produces a structured Markdown evidence file.
 
 ---
 
